@@ -1,7 +1,3 @@
-Certainly! Here’s a structured and inspiring README for your 100 Days of Code challenge:
-
----
-
 # 🌟 100 Days of Code Challenge 🌟
 
 Welcome to my 100 Days of Code Challenge repository! 🚀
