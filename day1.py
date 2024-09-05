@@ -4,53 +4,21 @@
 - **Sample Output**: `10` (1 + 2 + 3 + 4)
 """
 
+#Method 1:
 
-# def sum_of_digits(number):
-#     total = 0
-    
-#     while number > 0:
-#         digit = number % 10  # Get the last digit
-#         total += digit       # Add it to the total sum
-#         number = number // 10  # Remove the last digit
-    
-#     return total
+def sum_of_numbers(number):
 
-# # Example usage
-# input_number = 1234
-# result = sum_of_digits(input_number)
-# print(result)  # Output: 10
+    total=0
+    while number>0:
+        rem=number%10
+        total=total+rem
+        number=number//10
+    return total
 
 
-
-# def sum_of_numbers(number):
-
-#     total=0
-
-#     while number > 0:
-#         digit=number%10
-#         total=total+digit
-#         number=number//10
-
-#     return total
-# input=int(input("enter the number boi"))
-# result=sum_of_numbers(input)
-# print (result)
-
-
-
-# def sum_of_numbers(number):
-
-#     total=0
-#     while number>0:
-#         rem=number%10
-#         total=total+rem
-#         number=number//10
-#     return total
-
-
-# num=int(input("enter the number"))
-# result=sum_of_numbers(num)
-# print(result)
+num=int(input("enter the number"))
+result=sum_of_numbers(num)
+print(result)
 
 
 
@@ -65,13 +33,6 @@ def sum_of_number(number):
     for i in num:
         sum=sum+int(i)
     return sum
-
-
-
-
-
-
-
 
 
 num=int(input("Enter the number"))
